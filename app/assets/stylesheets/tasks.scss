@@ -1,3 +1,44 @@
 // Place all the styles related to the tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+$grey: #f1f1f6;
+$green: #015668;
+
+body {
+  background-color: $grey;
+}
+
+h1 {
+  color: $green;
+}
+
+.fa-check-square-o {
+  color: $green;
+}
+
+.fa-square-o {
+  color: $green;
+}
+
+
+a {
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
+
+.btn-gradient {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: linear-gradient(#167FFB, #0F60C4);
+  transition: background 0.3s ease;
+  border: 1px solid #0F60C4;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(#147EFF, #0F67DA);
+  color: white;
+}
